@@ -1,0 +1,41 @@
+.done-true{
+	text-decoration: line-through;
+	color: green;
+}
+
+body{
+	width: 300px;
+}
+
+.page-header,.row{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.table{
+	table-layout: fixed;
+}
+.table .col-md-1{
+	width: 10%;
+}
+
+[contenteditable]:focus {
+   /* border-style: dashed;*/
+    border-color: #3071a9;
+    border-width: 3px;
+    color: #3071a9;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.smallSize{
+	/*width: 2%;*/
+}
+
+.pull-right{
+	/*text-align: right;*/
+}
+
+.onoffswitch{
+	position: relative;
+	left: 180px;
+}
